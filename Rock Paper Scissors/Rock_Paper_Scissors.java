@@ -17,7 +17,7 @@ public class Rock_Paper_Scissors {
         while (playAgain) {
             int rand_int1 = rand.nextInt(3);
 
-            System.out.println("-----COMPUTER HAS CHOOSEN NOW IT'S TURN-----");
+            System.out.println("-----Computer has made its choice. Your turn!-----");
             System.out.print("0.ROCK , 1.Paper , 2.Scissor: ");
             int myturn = sc.nextInt();
             System.out.println("Computer Turn: " + rand_int1); // Print computer's turn
